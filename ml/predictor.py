@@ -1,9 +1,14 @@
 import joblib
 import re
+import nltk
 
 from nltk.tokenize import word_tokenize
 
 from config import MODEL_PATH
+
+
+# Download tokenizer data
+nltk.download("punkt_tab")
 
 
 # Load trained model
