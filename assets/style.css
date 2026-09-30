@@ -1,0 +1,56 @@
+/* Main application */
+
+.main-title {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+/* Review card */
+
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+}
+
+
+/* Result */
+
+.result-card {
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.fake-result {
+    background: #fff1f2;
+    border: 2px solid #ef4444;
+}
+
+.real-result {
+    background: #ecfdf5;
+    border: 2px solid #10b981;
+}
+
+
+.result-title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.confidence {
+    font-size: 20px;
+    margin-top: 10px;
+}
